@@ -32,6 +32,14 @@ python main.py
 - [ ] Weakness tracking
 - [ ] User memory/history
 
+## Download Requirements 
+pip install -r requirements.txt
+
+## To Run
+open two terminals
+cd into backend run uvicorn app:app --reload --port 8080
+cd into frontend run python -m http.server 8080
+
 ## Team
 - Andy Huynh
 - Ben Fukuzawa
